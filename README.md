@@ -112,6 +112,10 @@ The following steps assumes you have the repository cloned and that is your work
     $> eval $(minikube docker-env)
     $> docker build --rm -t eirinix-sample-extension .
 
+Or build with Cloud Native Buildpacks:
+
+    $> pack build eirinix-sample-extension --builder cloudfoundry/cnb:bionic
+
 ### 2) Create the service
 
     $> kubectl apply -f contrib/eirinix-sample-extension-service.yaml

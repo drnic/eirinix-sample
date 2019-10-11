@@ -9,4 +9,4 @@ spec:
   - protocol: TCP
     port: 4545
     targetPort: 4545
-  clusterIP: 10.96.0.239
+  clusterIP: 10.114.0.239

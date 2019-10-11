@@ -8,7 +8,7 @@ spec:
   serviceAccountName: "eirini-helloworld-extension"
   containers:
    - image: eirinix-sample-extension
-     args: ["-w", "10.96.0.239", "-p", "4545", "-n", "default"]
+     args: ["-w", "10.114.0.239", "-p", "4545", "-n", "default"]
      name: eirini-helloworld-extension
      imagePullPolicy: Never
   restartPolicy: Always
